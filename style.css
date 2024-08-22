@@ -1,0 +1,91 @@
+.Container{
+     display: grid;
+     grid-template-columns: repeat(3,33.3%);
+     grid-template-rows: repeat(3, auto);
+     gap: 1px;
+}
+header{
+    height: 600px;
+    grid-row-start:1;
+    grid-column-start: 1;
+    grid-row-end: 1;
+    grid-column-end:4;
+    background-image: url(https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo_legenda/maconha.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+main{
+    height: 950px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-column-end: 4;
+    grid-row-end: 2;
+    
+}
+footer{
+    height: 700px;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-column-end: 4;
+    grid-row-end: 4;
+}
+.section1{
+    display: grid;
+    width: 33.3%;
+    height: 700px;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-column-end: 1;
+    grid-row-end: 1;
+    float: left;
+}
+.section2{
+    display: grid;
+    width: 33.3%;
+    height: 700px;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-column-end: 2;
+    grid-row-end: 3;
+    float: left;
+}
+.section3{
+    display: grid;
+    width: 33.3%;
+    height: 700px;
+    grid-column-start: 3;   
+    grid-row-start: 3;
+    grid-column-end: 3;
+    grid-row-end: 3;
+}
+h1{
+    text-align: center;
+    padding: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: greenyellow;
+    font-size: 100px;
+}
+.img1{
+    width: 900px;
+    height: 500px;
+    padding-top:90px;
+    padding-left: 170px;
+}
+.img2{
+    width: 90%;
+    height: 300px;
+    padding: 5%;
+}
+#p1{
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.p2{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: medium;
+}
